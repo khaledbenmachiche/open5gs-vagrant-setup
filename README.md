@@ -146,7 +146,3 @@ GitHub: [@khaledbenmachiche](https://github.com/khaledbenmachiche)
 - [Open5GS](https://open5gs.org) for the 5G core implementation.
 - [UERANSIM](https://github.com/aligungr/UERANSIM) for the 5G UE and gNB simulator.
 - [Vagrant](https://www.vagrantup.com) for VM automation.
-
-```
-
-- The README is concise yet comprehensive, avoiding speculative features and focusing on practical usage. Let me know if you need further adjustments or additional sections!
