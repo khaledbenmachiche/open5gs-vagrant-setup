@@ -3,8 +3,6 @@ Vagrant.configure("2") do |config|
     open5gs.vm.box = "bento/ubuntu-20.04"
     open5gs.vm.hostname = "open5gs.local"
     open5gs.vm.network "private_network", ip: "192.168.56.101", hostname: true
-    #open5gs.vm.synced_folder "open5gs_config", "/etc/open5gs"
-    #open5gs.vm.synced_folder "data", "/home/vagrant/data"
     open5gs.vm.network "forwarded_port", guest: 3000, host: 8080
     open5gs.vm.network "forwarded_port", guest: 38412, host: 38412
     open5gs.vm.provider "vmware_desktop" do |vmw|
@@ -20,7 +18,6 @@ Vagrant.configure("2") do |config|
     ueransim.vm.hostname = "ueransim.local"
     ueransim.vm.network "private_network", ip: "192.168.56.102", hostname: true
     ueransim.vm.network "forwarded_port", guest: 38412, host: 38413
-    #ueransim.vm.synced_folder "data", "/home/vagrant/data"
     ueransim.vm.provider "vmware_desktop" do |vmw|
       vmw.gui = false
       vmw.memory = "2048"
