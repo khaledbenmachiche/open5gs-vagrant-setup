@@ -136,11 +136,6 @@ This creates two VMs:
 
 This project is licensed under the MIT License.
 
-## Author
-
-**Khaled Benmachiche**  
-GitHub: [@khaledbenmachiche](https://github.com/khaledbenmachiche)
-
 ## Acknowledgments
 
 - [Open5GS](https://open5gs.org) for the 5G core implementation.
