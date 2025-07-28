@@ -21,8 +21,8 @@ This project automates the setup of a 5G core network using **Open5GS** and a si
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/khaledbenmachiche/5ginabox.git
-   cd 5ginabox
+   git clone https://github.com/khaledbenmachiche/open5gs-vagrant-setup.git
+   cd open5gs-vagrant-setup
    ```
 
 2. **Launch the VMs**:
